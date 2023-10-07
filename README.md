@@ -61,12 +61,12 @@ npm i -g pnpm@8.8
 pnpm create vite sample-react-project
 ```
 
-You be asked to choose a **framework** 
+You be asked to choose a **framework** -> React
 
 ![image](https://github.com/ron2015schmitt/sample-react-project/assets/11559541/af8e5699-ae89-43b7-b0f0-cc7fa880a736)
 
 
-and a **variant**
+and a **variant** -> TypeScript + SWC
 
 ![image](https://github.com/ron2015schmitt/sample-react-project/assets/11559541/7e36e357-8519-40cf-aa22-4189aa0c6976)
 
