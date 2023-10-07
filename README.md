@@ -1,4 +1,70 @@
-# React + TypeScript + Vite
+# Sample React Project With Tools 2023
+
+Tools / packages
+
+- [React 18](https://legacy.reactjs.org/blog/2022/03/29/react-v18.html)
+- nvm
+- nodejs 18.18
+- npm 10.2
+- pnpm 8.8
+- vite 4.4
+- elint 8.45
+- TypeScript 5.0
+- SWC 3.3
+
+## install
+
+### Package manager setup.
+
+```bash
+nvm install 18.18
+nvm use 18.18
+npm i -g npm@10.2
+npm i -g pnpm@8.8
+```
+ 
+### Clone repo
+
+```bash
+git clone https://github.com/ron2015schmitt/sample-react-project.git
+cd sample-angular-project
+```
+
+### Install packages
+
+```bash
+pnpm install
+```
+### Run
+
+```bash
+pnpm run dev
+```
+point browser to http://localhost:5173/
+
+![image](https://github.com/ron2015schmitt/sample-react-project/assets/11559541/3a85c3a1-793f-4000-8f0d-ca6b599cca1c)
+
+
+## How this repo was created
+### Set up package managers: nvm, npm, pnpm
+
+```bash
+nvm install 18.18
+nvm use 18.18
+npm i -g npm@10.2
+npm i -g pnpm@8.8
+```
+
+### Create React Project using pnpm and vite
+
+```bash
+pnpm create vite sample-react-project
+cd sample-react-project
+```
+
+## Notes provided by the pnpm Vite installer
+
+### React + TypeScript + Vite
 
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
@@ -7,7 +73,7 @@ Currently, two official plugins are available:
 - [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
 - [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
 
-## Expanding the ESLint configuration
+### Expanding the ESLint configuration
 
 If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
 
