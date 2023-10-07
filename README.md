@@ -59,8 +59,23 @@ npm i -g pnpm@8.8
 
 ```bash
 pnpm create vite sample-react-project
-cd sample-react-project
 ```
+
+You be asked to choose a **framework** 
+![image](https://github.com/ron2015schmitt/sample-react-project/assets/11559541/af8e5699-ae89-43b7-b0f0-cc7fa880a736)
+
+and a **variant**
+![image](https://github.com/ron2015schmitt/sample-react-project/assets/11559541/7e36e357-8519-40cf-aa22-4189aa0c6976)
+
+
+
+### verify the build
+```bash
+cd sample-react-project
+pnpm install
+pnpm run dev
+```
+
 
 ## Notes provided by the pnpm Vite installer
 
