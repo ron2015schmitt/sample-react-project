@@ -6,7 +6,7 @@ Tools / packages
 - nvm
 - nodejs 18.18
 - npm 10.2
-- pnpm 8.8
+- pnpm 8.9
 - vite 4.4
 - elint 8.45
 - TypeScript 5.0
@@ -20,7 +20,7 @@ Tools / packages
 nvm install 18.18
 nvm use 18.18
 npm i -g npm@10.2
-npm i -g pnpm@8.8
+npm i -g pnpm@8.9
 ```
  
 ### Clone repo
@@ -52,7 +52,7 @@ point browser to http://localhost:5173/
 nvm install 18.18
 nvm use 18.18
 npm i -g npm@10.2
-npm i -g pnpm@8.8
+npm i -g pnpm@8.9
 ```
 
 ### Create React Project using pnpm and vite
@@ -70,7 +70,20 @@ and a **variant** -> TypeScript + SWC
 
 ![image](https://github.com/ron2015schmitt/sample-react-project/assets/11559541/7e36e357-8519-40cf-aa22-4189aa0c6976)
 
+### add engines and bin to the `package.json`
 
+Add the tool versions to `package.json`
+
+```json
+  "bin": {
+    "myng": "./node_modules/@angular/cli/bin/ng"
+  },
+  "engines": {
+    "node": "18.18",
+    "npm": "10.2",
+    "pnpm": "8.9"
+  },
+```
 
 ### verify the build
 ```bash
@@ -78,6 +91,7 @@ cd sample-react-project
 pnpm install
 pnpm run dev
 ```
+
 
 
 ## Notes provided by the pnpm Vite installer
