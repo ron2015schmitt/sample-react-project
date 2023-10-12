@@ -70,14 +70,11 @@ and a **variant** -> TypeScript + SWC
 
 ![image](https://github.com/ron2015schmitt/sample-react-project/assets/11559541/7e36e357-8519-40cf-aa22-4189aa0c6976)
 
-### add engines and bin to the `package.json`
+### Add engines section to the `package.json`
 
-Add the tool versions to `package.json`
+Add the tool versions to `package.json`, which will get enforced during build.
 
 ```json
-  "bin": {
-    "myng": "./node_modules/@angular/cli/bin/ng"
-  },
   "engines": {
     "node": "18.18",
     "npm": "10.2",
