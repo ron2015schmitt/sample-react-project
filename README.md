@@ -1,16 +1,22 @@
 # React Starter Project With Tools 2023 (18.2)
 
-Tools / packages
 
-- [React 18](https://legacy.reactjs.org/blog/2022/03/29/react-v18.html)
-- nvm
-- nodejs 18.18
-- npm 10.2
-- pnpm 8.9
-- vite 4.4
-- elint 8.45
-- TypeScript 5.0
-- SWC 3.3
+[React 18](https://legacy.reactjs.org/blog/2022/03/29/react-v18.html)
+
+
+## Tools / packages included
+
+|  Tool | Version |
+| ------------- | ------------- | 
+| nvm | (v0.39) |
+| NodeJs | 18.18 |
+| npm | 10.2 |
+| pnpm | 8.9 |
+| vite | 4.4 |
+| elint | 8.45 |
+| JavaScript | [ECMA2022](https://dev.to/brayanarrieta/new-javascript-features-ecmascript-2022-with-examples-4nhg) |
+| TypeScript | [5.0](https://www.typescriptlang.org/docs/handbook/release-notes/typescript-5-2.html) |
+| SWC | 3.3 |
 
 ## install
 
