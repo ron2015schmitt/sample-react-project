@@ -1,4 +1,4 @@
-# Sample React Project With Tools 2023
+# React Starter Project With Tools 2023 (18.2)
 
 Tools / packages
 
